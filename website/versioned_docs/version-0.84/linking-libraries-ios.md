@@ -1,4 +1,12 @@
----
+yeni
+// react-native.config.js
+module.exports = {
+  dependencies: {
+    'local-rn-library': {
+      root: path.join(__dirname, '/path/to/local-rn-library'),
+    },
+  },
+};---
 id: linking-libraries-ios
 title: Linking Libraries
 ---
